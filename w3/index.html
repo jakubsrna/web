@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+	<meta charset="UTF-8">
+	<title> Warcraft III: Reforged | Blizzard Entertainment </title>
+	<meta name="description" content="Warcraft® III: Reforged™ je remaster klasickej real-time stratégie. Zažite pôvodné dychberúce príbehy zo sveta Warcraftu, teraz v novom šate.">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Rasa:300,400,500,600,700" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="img/favicon/site.webmanifest">
+	<link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#da532c">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico">
+	<meta name="apple-mobile-web-app-title" content="Warcraft III: Reforged">
+	<meta name="application-name" content="Warcraft III: Reforged">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-config" content="img/favicon/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
+	<!-- SPLASH SCREEN -->
+	<div class="bg img1" id="logo">
+		<img src="img/logo.png">
+	</div>
+	<!-- -->
+
+	<!-- MENU BUTTON -->
+	<div id="menu_btn" class="menu_btn">
+		<a href="javascript:void(0)" onclick="openSidenav();"><img src="img/stone_menu.png"></a>
+	</div>
+	<div class="menu_btn_txt">MENU</div>
+	<div id="menu_btn2" class="menu_btn">
+		<a href="javascript:void(0)" onclick="closeSidenav();"><img src="img/stone_close.png"></a>
+	</div>
+	<!-- -->
+
+	<!-- SIDENAV -->
+	<div id="sidenav">
+		<ul>
+			<li><a href="#logo" onclick="closeSidenav();"> ÚVOD </a></li>
+		    <li><a href="#trailer_section" onclick="closeSidenav();"> TRAILER </a></li>
+		    <li><a href="#pribeh_section" onclick="closeSidenav();"> PRÍBEH </a></li>
+		    <li><a href="#rasy_section" onclick="closeSidenav();"> RASY </a></li>
+		    <li><a href="#hrdinovia_section" onclick="closeSidenav();"> HRDINOVIA </a></li>
+		    <li><a href="#ukazky_section" onclick="closeSidenav();"> UKÁŽKY&nbsp;Z&nbsp;HRY </a></li>
+		    <li><a href="#predobjednat_section" onclick="closeSidenav();"> PREDOBJEDNAŤ </a></li>
+		    <li style="font-size: 15px; opacity: 0.2;"><a href="readme.txt" onclick="closeSidenav();"> (README) </a></li>
+		</ul>
+	</div>
+	
+	<!-- POZADIE TEXTURA -->
+	<div class="bg_pattern">
+
+		<!-- TRAILER SECTION -->
+		<section id="trailer_section"> 
+			
+			<div class="stone stone_up">
+				<img src="img/arrow_down.png">
+			</div>
+
+			<div class="wrapper">
+
+				<div class="content_trailer">
+					<div class="trailer_box default_grad_box">
+						<div class="trailer_video">
+							<div class="video_thumbnail" onclick="this.nextElementSibling.style.display='block'; this.style.display='none'"></div>
+							<iframe src="https://www.youtube.com/embed/72UbFQO5-m0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="trailer_text">
+							<p> <b> Warcraft® III: Reforged™ </b> je remaster klasickej real-time stratégie. Zažite pôvodné dychberúce príbehy zo sveta Warcraftu, teraz v novom šate. <br><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos obcaecati, magni aut, quidem, fugit adipisci quibusdam distinctio voluptatibus nesciunt consectetur quis eos reiciendis ducimus, facilis repudiandae ea rem ipsam earum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos obcaecati, magni aut, quidem, fugit adipisci quibusdam distinctio voluptatibus nesciunt consectetur quis eos reiciendis ducimus, facilis repudiandae ea rem.</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</section>
+		<!-- -->
+
+		<!-- STONE DIVIDER -->
+		<div class="stone stone_down"></div>
+		<div class="bg img2"></div>
+		<!-- -->
+
+		<!-- PRIBEH SECTION -->
+		<section id="pribeh_section"> 
+			
+			<div class="stone stone_up">
+				<img src="img/pribeh.png">
+			</div>
+
+			<div class="wrapper">
+
+				<div class="content_trailer">
+					<div class="trailer_pribeh_box default_grad_box">
+						<div class="trailer_pribeh_video">
+							<div class="video_pribeh_thumbnail" onclick="this.nextElementSibling.style.display='block'; this.style.display='none'"></div>
+							<iframe src="https://www.youtube.com/embed/ICMpPrg77g0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="trailer_text">
+							<p> Prežite znovu udalosti Warcraft III: <b>Reign of Chaos</b> a <b>The Frozen Throne</b> v 62 misiách naprieč Kalimdorom, Lordaeronom a Northrendom. <br><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos obcaecati, magni aut, quidem, fugit adipisci quibusdam distinctio voluptatibus nesciunt consectetur quis eos reiciendis ducimus, facilis repudiandae ea rem ipsam earum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos obcaecati, magni aut, quidem, fugit adipisci quibusdam distinctio voluptatibus nesciunt consectetur quis eos reiciendis ducimus, facilis repudiandae ea rem ipsam earum!</p>
+						</div>
+					</div>
+
+					<!--<div class="pribeh_box default_grad_box">
+						
+					</div>
+					<div class="pribeh_box default_grad_box">
+						
+					</div>-->
+
+				</div>
+
+			</div>
+
+		</section>
+		<!-- -->
+
+		<!-- STONE DIVIDER -->
+		<div class="stone stone_down"></div>
+		<div class="bg img4"></div>
+		<!-- -->
+
+		<!-- RASY SECTION -->
+		<section id="rasy_section"> 
+			
+			<div class="stone stone_up">
+				<img src="img/rasy.png">
+			</div>
+
+			<div class="wrapper">
+
+				<div class="content_rasy ludia">
+					<div class="rasy_img">
+						<img src="img/ludia.png">
+					</div>
+					<div class="rasy_txt">
+						<h2>Ľudia</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos obcaecati, magni aut, quidem, fugit adipisci quibusdam distinctio voluptatibus nesciunt consectetur quis eos reiciendis ducimus, facilis repudiandae ea rem ipsam earum!</p>
+						<p>Asperiores vero ratione perferendis tempore repellat. Voluptatem adipisci eum delectus esse eos rerum assumenda recusandae quam, laudantium vero autem unde culpa sint explicabo cum enim consectetur inventore omnis odio corrupti.</p>
+					</div>
+				</div>
+
+				<div class="content_rasy orkovia">
+					<div class="rasy_img">
+						<img src="img/orkovia.png">
+					</div>
+					<div class="rasy_txt">
+						<h2>Orkovia</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos obcaecati, magni aut, quidem, fugit adipisci quibusdam distinctio voluptatibus nesciunt consectetur quis eos reiciendis ducimus, facilis repudiandae ea rem ipsam earum!</p>
+						<p>Asperiores vero ratione perferendis tempore repellat. Voluptatem adipisci eum delectus esse eos rerum assumenda recusandae quam, laudantium vero autem unde culpa sint explicabo cum enim consectetur inventore omnis odio corrupti.</p>
+					</div>
+				</div>
+
+				<div class="content_rasy nemrtvi">
+					<div class="rasy_img">
+						<img src="img/nemrtvi.png">
+					</div>
+					<div class="rasy_txt">
+						<h2>Nemŕtvi</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos obcaecati, magni aut, quidem, fugit adipisci quibusdam distinctio voluptatibus nesciunt consectetur quis eos reiciendis ducimus, facilis repudiandae ea rem ipsam earum!</p>
+						<p>Asperiores vero ratione perferendis tempore repellat. Voluptatem adipisci eum delectus esse eos rerum assumenda recusandae quam, laudantium vero autem unde culpa sint explicabo cum enim consectetur inventore omnis odio corrupti.</p>
+					</div>
+				</div>
+
+				<div class="content_rasy elfovia">
+					<div class="rasy_img">
+						<img src="img/elfovia.png">
+					</div>
+					<div class="rasy_txt">
+						<h2>Noční Elfovia</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos obcaecati, magni aut, quidem, fugit adipisci quibusdam distinctio voluptatibus nesciunt consectetur quis eos reiciendis ducimus, facilis repudiandae ea rem ipsam earum!</p>
+						<p>Asperiores vero ratione perferendis tempore repellat. Voluptatem adipisci eum delectus esse eos rerum assumenda recusandae quam, laudantium vero autem unde culpa sint explicabo cum enim consectetur inventore omnis odio corrupti.</p>
+					</div>
+				</div>
+
+			</div>
+
+		</section>
+		<!-- -->
+
+		<!-- STONE DIVIDER -->
+		<div class="stone stone_down"></div>
+		<div class="bg img3"></div>
+		<!-- -->
+
+		<!-- HRDINOVIA SECTION -->
+		<section id="hrdinovia_section"> 
+			
+			<div class="stone stone_up">
+				<img src="img/hrdinovia.png">
+			</div>
+
+			<div class="wrapper">
+
+				<div class="content_hrdinovia">
+					<div class="hrdina_box orkovia">
+						<div class="hrdina_img">
+							<img src="img/hrdina1.png" alt="Obrázok - Blademaster">
+						</div>
+						<div class="hrdina_text">
+							<h2>Blademaster</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos obcaecati, magni aut, quidem, fugit adipisci quibusdam distinctio voluptatibus nesciunt consectetur quis eos reiciendis ducimus, facilis repudiandae ea rem ipsam earum!</p>
+						</div>
+					</div>
+					<div class="hrdina_box ludia">
+						<div class="hrdina_img">
+							<img src="img/hrdina4.png" alt="Obrázok - Paladin">
+						</div>
+						<div class="hrdina_text">
+							<h2>Paladin</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos obcaecati, magni aut, quidem, fugit adipisci quibusdam distinctio voluptatibus nesciunt consectetur quis eos reiciendis ducimus, facilis repudiandae ea rem ipsam earum!</p>
+						</div>
+					</div>
+					<div class="hrdina_box nemrtvi">
+						<div class="hrdina_img">
+							<img src="img/hrdina2.png" alt="Obrázok - Dreadlord">
+						</div>
+						<div class="hrdina_text">
+							<h2>Dreadlord</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos obcaecati, magni aut, quidem, fugit adipisci quibusdam distinctio voluptatibus nesciunt consectetur quis eos reiciendis ducimus, facilis repudiandae ea rem ipsam earum!</p>
+						</div>
+					</div>
+					<div class="hrdina_box orkovia">
+						<div class="hrdina_img">
+							<img src="img/hrdina3.png" alt="Obrázok - Tauren Chieftain">
+						</div>
+						<div class="hrdina_text">
+							<h2>Tauren Chieftain</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos obcaecati, magni aut, quidem, fugit adipisci quibusdam distinctio voluptatibus nesciunt consectetur quis eos reiciendis ducimus, facilis repudiandae ea rem ipsam earum!</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</section>
+		<!-- -->
+
+		<!-- STONE DIVIDER -->
+		<div class="stone stone_down"></div>
+		<div class="bg img6"></div>
+		<!-- -->
+
+		<!-- UKAZKY SECTION -->
+		<section id="ukazky_section"> 
+			
+			<div class="stone stone_up">
+				<img src="img/ukazky.png">
+			</div>
+
+			<div class="wrapper">
+
+				<div class="content_ukazky">
+					<a href="img/ukazky/1.jpg" class="small_img"><img src="img/ukazky/thumbnail/1.jpg" alt="Ukážka z hry 1"></a>
+					<a href="img/ukazky/2.jpg" class="small_img"><img src="img/ukazky/thumbnail/2.jpg" alt="Ukážka z hry 2"></a>
+					<a href="img/ukazky/3.jpg" class="small_img"><img src="img/ukazky/thumbnail/3.jpg" alt="Ukážka z hry 3"></a>
+					<a href="img/ukazky/4.jpg" class="small_img"><img src="img/ukazky/thumbnail/4.jpg" alt="Ukážka z hry 4"></a>
+					<a href="img/ukazky/5.jpg" class="small_img"><img src="img/ukazky/thumbnail/5.jpg" alt="Ukážka z hry 5"></a>
+					<a href="img/ukazky/6.jpg" class="small_img"><img src="img/ukazky/thumbnail/6.jpg" alt="Ukážka z hry 6"></a>
+					<a href="img/ukazky/7.jpg" class="small_img"><img src="img/ukazky/thumbnail/7.jpg" alt="Ukážka z hry 7"></a>
+					<a href="img/ukazky/8.jpg" class="small_img"><img src="img/ukazky/thumbnail/8.jpg" alt="Ukážka z hry 8"></a>
+					<a href="img/ukazky/9.jpg" class="small_img"><img src="img/ukazky/thumbnail/9.jpg" alt="Ukážka z hry 9"></a>
+					<a href="img/ukazky/10.jpg" class="small_img"><img src="img/ukazky/thumbnail/10.jpg" alt="Ukážka z hry 10"></a>
+					<a href="img/ukazky/11.jpg" class="small_img"><img src="img/ukazky/thumbnail/11.jpg" alt="Ukážka z hry 11"></a>
+					<a href="img/ukazky/12.jpg" class="small_img"><img src="img/ukazky/thumbnail/12.jpg" alt="Ukážka z hry 12"></a>
+				</div>
+
+			</div>
+
+		</section>
+		<!-- -->
+
+		<!-- STONE DIVIDER -->
+		<div class="stone stone_down"></div>
+		<div class="bg img5"></div>
+		<!-- -->
+
+		<!-- FOOTER SECTION -->
+		<footer id="predobjednat_section"> 
+			
+			<div class="stone stone_up">
+			</div>
+
+			<div class="wrapper_footer">
+
+				<div class="black_gradient"></div>
+
+				<div class="CTA">
+					<div class="CTA_frame"> <img src="img/CTA_frame.png"> </div>
+					<a href="javascript:void(0)"><div class="CTA_button"> PREDOBJEDNAŤ </div></a>
+				</div>
+
+				<div class="social">
+					<a href="javascript:void(0)"><div><img src="img/twitter.png" alt="Twitter"></div></a>
+					<a href="javascript:void(0)"><div><img src="img/fb.png" alt="Facebook"></div></a>
+					<a href="javascript:void(0)"><div><img src="img/yt.png" alt="Youtube"></div></a>
+					<a href="javascript:void(0)"><div><img src="img/reddit.png" alt="Reddit"></div></a>
+				</div>
+
+				<div class="blizzard">
+					<a href="javascript:void(0)"><div><img src="img/blizzard.png" alt="Blizzard Entertainment"></div></a>
+				</div>
+
+				<p> ©2018 BLIZZARD ENTERTAINMENT, INC. ALL RIGHTS RESERVED. </p>
+				<p> Made by Jakub Srna, BC1 TEDI FMK </p>
+				<p> &nbsp; </p>
+
+			</div>
+
+		</footer>
+		<!-- -->
+
+	</div>
+	<!-- -->
+
+
+	<!-- JS -->
+
+	<!-- MENU BUTTON SCROLL FUNKCIA -->
+	<script>
+		window.onscroll = function() {scrollFunction()};
+		var vyska = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+		function scrollFunction() {
+		  if (document.body.scrollTop > (vyska-110) || document.documentElement.scrollTop > (vyska-110)) {
+		    document.getElementById("menu_btn").style.left = "5px";
+		    document.getElementById("menu_btn2").style.left = "5px";
+		  } else {
+		    document.getElementById("menu_btn").style.left = "-200px";
+		    document.getElementById("menu_btn2").style.left = "-200px";
+		  }
+		}
+	</script>
+	<!-- -->
+
+	<!-- MENU BUTTON, SIDENAV OPEN/CLOSE FUNKCIE -->
+	<script>
+		function openSidenav() {
+		  document.getElementById("sidenav").style.width = "270px";
+		  document.getElementById("menu_btn2").style.display = "block";
+		  document.getElementById("menu_btn").style.display = "none";
+		}
+
+		function closeSidenav() {
+		  document.getElementById("sidenav").style.width = "0";
+		  document.getElementById("menu_btn").style.display = "block";
+		  document.getElementById("menu_btn2").style.display = "none";
+		}
+	</script>
+
+</body>
+</html>
