@@ -1,0 +1,104 @@
+div.navbar{
+    width: 100%;
+    height:150px;
+    background-color: white;
+    border:solid black 5px;
+
+    position:sticky;
+    top:0;
+    overflow: visible;
+}
+
+video{
+    width: 100%;
+    border:solid black 5px;
+}
+
+.navbar button{
+    width:20%;
+    background-color: black;
+    color:white;
+    border:none;
+    padding:46px 0;
+    float:right;
+
+    margin-right:15px;
+    margin-top:15px;
+    margin-bottom:15px;
+    z-index: 1000;
+    border:3px solid black;
+}
+
+
+div.navbar img{
+    height:80%;
+    margin-top:15px;
+    margin-left:15px;
+}
+
+.menu{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    height:500px;
+    margin:0 10%;
+    width: 80%;
+}
+
+.item{
+    width:28.3%;
+    background: white;
+    border:solid black 5px;
+    margin: 2% 2%;
+    height:100%;
+    float:left;
+    font-size: 1em;
+
+}
+
+.item img{
+    height:50%;
+    width: 100%;
+    border-bottom:solid black 5px;
+}
+
+.content h3{
+    margin: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.content h3.number{
+    float:left;
+    margin-top:26px;
+}
+
+.content p{
+    margin: 10px;
+    text-align: center;
+    font-size: 1vw;
+}
+
+.content button{
+    margin-right:10px;
+    margin-top:20px;
+    width:30%;
+    padding: 10px;
+
+    background-color: black;
+    color:white;
+    border:3px solid black;
+
+    float:right;
+}
+
+button:hover{
+    background-color: white !important; 
+    color: black !important;
+}
+
+@media screen and (max-width: 1150px) {
+    .menu{
+        width: 100%;
+        margin:0;
+    }
+}
